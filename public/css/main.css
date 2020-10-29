@@ -1,0 +1,21 @@
+/* */
+
+* { /* seletor universal */
+    margin: 0; /* espaçamento */
+    padding: 0; /* preenchimento */
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
+}
+
+:root{  /* vai no elemento raiz, no caso a tag html*/
+    font-size: 62.5%;
+}
+
+body, input, button, textarea{
+    font: 400 1.8rem/1 'Nunito', sans-serif; /* na ordem: font-weight; font-size; line-height; font-family */
+}
